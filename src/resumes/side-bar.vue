@@ -4,6 +4,7 @@
           <span class="person-name">
             {{person.name.first}} {{person.name.middle}} {{person.name.last}}
           </span>
+              <p id="about">{{person.about}}</p>
           <span class="person-position">
             {{person.position}}
           </span>

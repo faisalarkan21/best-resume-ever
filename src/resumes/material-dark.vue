@@ -95,6 +95,7 @@
   <div class="rightCol">
     <div class="title">
       <h2>{{person.name.first}} {{person.name.middle}} {{person.name.last}}</h2>
+      <p id="about">{{person.about}}</p>
       <div>{{person.position}}</div>
     </div>
 
@@ -107,6 +108,17 @@
           {{experience.description}}
         </p>
     </div>
+
+    <div class="section-headline">{{ lang.Project }}</div>
+    <div class="block" v-for="project in person.project" :key="project.projectName">
+      <div class="block-helper"></div>
+     <h3 class="headline">{{project.projectName}}</h3>
+        <div class="subheadline">{{project.timeperiod}}</div>
+        <p class="info">
+          {{project.description}}
+        </p>
+    </div>
+
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <div class="block-helper"></div>
@@ -115,6 +127,9 @@
         {{education.timeperiod}}, {{education.description}}
       </p>
     </div>
+
+
+
   </div>
 
   <div style="clear:both;"></div>
@@ -134,6 +149,7 @@ export default Vue.component(name, getVueOptions(name));
 .resume {
   font-family:'Roboto' !important;
   background:#cccccc;
+
 }
 a {
   cursor:pointer;
@@ -337,20 +353,20 @@ h4 {
   float:left;
   padding:0;
   text-align:left;
-  color:#ffffff;
-  color:rgba(255,255,255,0.59);
-  background-color:#16151c;
+  color:#000000;
+  color:#000000;
+  background-color:#ffffff;
   overflow:hidden;
   display:block;
   .section-headline {
-    color:rgba(255,255,255,0.54);
+      color:#000000;
   }
   a {
-    color:rgba(255,255,255,0.59);
+      color:#000000;;
     text-decoration:none;
   }
   .heading {
-    background-color:white;
+    background-color:#000000;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center;
@@ -403,20 +419,20 @@ h4 {
       }
       .right {
         float:right;
-        width:93%;
+        width:93%;      
         .progress {
           float:left;
           position:relative;
           height:2px;
           display:block;
           width:95%;
-          background-color:rgba(255,255,255,0.19);
+          background-color:rgb(165, 162, 162);
           border-radius:2px;
           margin:0.5rem 0 1rem;
           overflow:visible;
           margin-bottom:10px;
           .determinate {
-            background-color:#78909c;
+            background-color:#000000;;
             position:absolute;
             top:0;
             bottom:0;
@@ -426,7 +442,7 @@ h4 {
               top:-4px;
               right:-2px;
               margin-left:50%;
-              color:white;
+              color:#000000;
             }
           }
         }

@@ -1,70 +1,103 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Faisal
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Arkan
+about: Love everything about linux stuff, i strive to provide a clean and good code structure with cutting edge technologies.
+
+position: Computer Lab Assistant Lepkom
 
 birth:
-  year: 1990
-  location: New York
+  year: 1996
+  location: Bogor
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
+- company: PT. Guardia Teknologi Indonesia
+  position: Full Stack Developer
+  timeperiod: March - June 2017
+  description: Develop Jubelio.com with tech stack such as ReactJS, HapiJS, Git, Gulp, webpack, Postgresql and etc.
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Lepkom Gunadarma
+  position: Computer Lab Assistant Lepkom
+  timeperiod: November 2015 - Present
+  description: Teaching a course on module and develop module with technologies ASP.NET MVC4, Java 2EE.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+project:
+- projectName: Website E-Learning University of Darussalam Gontor
+  timeperiod: January 2018 – Febuary 2018
+  description: Develop E-Learning for University of Darussalam Gontor.
+
+- projectName: The Sounds Project Vol.3
+  timeperiod: January 2018 – Febuary 2018
+  description: Develop Website Selling concert music tickets featuring Endah N Rhesa, Fariz RM, Float, Kahitna, Naif and other artists.
+
+- projectName: C# ASP.NET MVC 5 Module For Project Course
+  timeperiod: June 2017 – December 2017
+  description: Create a course module about creating e-commerce website for Lepkom (Lembaga Pengembangan Komputerisasi) based on C# ASP.NET MVC 5 and SQL Server 2016 and other technology, including integrating with in F4 labs gunadarma university.
+
+- projectName: JAVA EE Module For Project Course
+  timeperiod: June 2017 – December 2017
+  description: Create a course module about creating e-commerce website for Lepkom (Lembaga Pengembangan Komputerisasi) based on JAVA EE and MySQL and other technology, including integrating with in F4 labs gunadarma university.
+
+- projectName: Teaching Web Programing (Dissisfoad)
+  timeperiod: November 2016 – November 2016
+  description: Teaching about several technologies related to web programming such as Javascript, PHP, MySQL and others at Dinas Sistem Informasi Angkatan Darat (Dissisfoad)
+
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor's degree Informatics Engineering
+  timeperiod: August 2014 - December 2018
+  description: Gunadarma University, Depok, Indonesia.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
+- name: Linux
   level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Express.js
+  level: 85
+- name: Hapi.js
   level: 80
-- name: ES.Next
+- name: React.js
+  level: 85
+- name: React Native
   level: 70
-- name: Docker
-  level: 99
+- name: GraphQL
+  level: 60
+- name: Redux
+  level: 85
+- name: JavaScript
+  level: 85
+- name: Node.js
+  level: 85
+- name: ES.Next
+  level: 80
+- name: Android Development
+  level: 85
+- name: Java EE
+  level: 80
+- name: ASP.NET MVC5
+  level: 75
+- name: MySQL
+  level: 80
+- name: PostgreSQL
+  level: 80
+- name: MongoDB
+  level: 75
+- name: Redis
+  level: 65
+- name: PHP
+  level: 70
+- name: Python
+  level: 70
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: faisalarkan21@gmail.com
+  phone: +62 85778805197
+  street: Haji Mawi Street, Parung
+  city: Bogor  
+  github: faisalarkan21
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `

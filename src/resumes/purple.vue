@@ -2,6 +2,7 @@
 <div class="resume" id="template">
     <div id="resume-header">
         <div id="header-left">
+            <p id="about">{{person.about}}</p>
             <h2 id="position">{{person.position}}</h2>
             <h1 id="name">{{person.name.first}} {{person.name.last}}</h1>
             <div id="info-flex">
