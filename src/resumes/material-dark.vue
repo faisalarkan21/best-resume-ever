@@ -104,9 +104,7 @@
       <div class="block-helper"></div>
       <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
         <div class="subheadline">{{experience.timeperiod}}</div>
-        <p class="info">
-          {{experience.description}}
-        </p>
+        <p class="info">{{experience.description}}</p>
     </div>
 
     <div class="section-headline">{{ lang.Project }}</div>
@@ -114,9 +112,7 @@
       <div class="block-helper"></div>
      <h3 class="headline">{{project.projectName}}</h3>
         <div class="subheadline">{{project.timeperiod}}</div>
-        <p class="info">
-          {{project.description}}
-        </p>
+        <p class="info">{{project.description}}</p>
     </div>
 
     <div class="section-headline">{{ lang.education }}</div>
@@ -270,7 +266,7 @@ h4 {
   opacity:1;
 }
 .rightCol {
-  width:63.5%;
+  width:63%;
   height:100%;
   float:right;
   display:flex;

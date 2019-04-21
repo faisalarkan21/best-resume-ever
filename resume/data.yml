@@ -5,21 +5,36 @@ name:
   last: Arkan
 about: Love everything about linux stuff, i strive to provide a clean and good code structure with cutting edge technologies.
 
-position: Computer Lab Assistant Lepkom
+position: Front End Engineer Bibit (Mutual Funds)
 
 birth:
   year: 1996
   location: Bogor
 
 experience:
+- company: Hacktiv8
+  position: Part Time React & React Native Instructure
+  timeperiod: March 2018 - Present
+  description: Responsible for teaching React, React Native and other Front End technologies in the part-time class at Hacktiv8.
+
+- company: Stockbit And Bibit (Mutual Funds)
+  position: Front End Engineer
+  timeperiod: June 2018 - Present
+  description: Develop Stockbit and Dashboard Front-End website using React.js, Redux, Webpack, Sass and etc.
+
+- company: Telkom Indonesia
+  position: Full Stack Developer
+  timeperiod: February 2018 - Mei 2018
+  description: Working remotely develop on ITX (Indonesia Tourism Exchange) and Nusaku Project making mobile apps and website using various technologies such as Node.js, Express.js, React.js, MongoDB, GraphQL and Android.
+
 - company: PT. Guardia Teknologi Indonesia
   position: Full Stack Developer
-  timeperiod: March - June 2017
+  timeperiod: March 2017 - June 2017
   description: Develop Jubelio.com with tech stack such as ReactJS, HapiJS, Git, Gulp, webpack, Postgresql and etc.
 
 - company: Lepkom Gunadarma
   position: Computer Lab Assistant Lepkom
-  timeperiod: November 2015 - Present
+  timeperiod: November 2015 - December 2018
   description: Teaching a course on module and develop module with technologies ASP.NET MVC4, Java 2EE.
 
 project:
@@ -54,25 +69,25 @@ skills:
 - name: Linux
   level: 95
 - name: Express.js
-  level: 85
+  level: 90
 - name: Hapi.js
   level: 80
+- name: Version Control (Git And Mercurial)
+  level: 95
 - name: React.js
-  level: 85
+  level: 95
 - name: React Native
-  level: 70
+  level: 90
 - name: GraphQL
-  level: 60
-- name: Redux
-  level: 85
-- name: JavaScript
-  level: 85
-- name: Node.js
-  level: 85
-- name: ES.Next
   level: 80
+- name: Redux
+  level: 95
+- name: JavaScript
+  level: 95
+- name: Node.js
+  level: 90
 - name: Android Development
-  level: 85
+  level: 80
 - name: Java EE
   level: 80
 - name: ASP.NET MVC5
@@ -82,13 +97,11 @@ skills:
 - name: PostgreSQL
   level: 80
 - name: MongoDB
-  level: 75
-- name: Redis
-  level: 65
-- name: PHP
-  level: 70
+  level: 80
 - name: Python
   level: 70
+- name: C# MVC 4
+  level: 80
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
   (English and Klingon).
 
