@@ -12,8 +12,13 @@ birth:
   location: Bogor
 
 experience:
+- company: Danain.co.id
+  position: IT Consultant
+  timeperiod: October 2019 - Present
+  description: Training React.js and Java Android (Planing migrate from React Native) to the employee and also provide solution for develop mobile hybrid app with React Native Technologies
+
 - company: Hacktiv8
-  position: Part Time React & React Native Instructure
+  position: Part Time React & React Nabtive Instructure
   timeperiod: March 2018 - Present
   description: Responsible for teaching React, React Native and other Front End technologies in the part-time class at Hacktiv8.
 
@@ -23,9 +28,9 @@ experience:
   description: Develop Stockbit and Dashboard Front-End website using React.js, Redux, Webpack, Sass and etc.
 
 - company: Telkom Indonesia
-  position: Full Stack Developer
+  position: Full Stack Developer (Front-End React, Backend Express.js, Spring boot & Mobile Java Android)
   timeperiod: February 2018 - Mei 2018
-  description: Working remotely develop on ITX (Indonesia Tourism Exchange) and Nusaku Project making mobile apps and website using various technologies such as Node.js, Express.js, React.js, MongoDB, GraphQL and Android.
+  description: Working remotely develop on ITX (Indonesia Tourism Exchange) and Nusaku Project making mobile apps and website using various technologies such as Spring boot, Java Android, Node.js, Express.js, React.js, MongoDB, GraphQL.
 
 - company: PT. Guardia Teknologi Indonesia
   position: Full Stack Developer
@@ -35,39 +40,46 @@ experience:
 - company: Lepkom Gunadarma
   position: Computer Lab Assistant Lepkom
   timeperiod: November 2015 - December 2018
-  description: Teaching a course on module and develop module with technologies ASP.NET MVC4, Java 2EE.
+  description: Teaching a course on module and develop module with technologies ASP.NET MVC4, Java 2EE (Including Spring Boot).
 
 project:
+
+- projectName: Deep learning Document Classification (Spring Boot As API)
+  timeperiod:  March 2020 – June 2020
+  description: Mitra Biro Umum Sekertariat Jenderal Kementerian Pendidikan Dan Kebudayaan RI request project creating website for document classification with deep learning CNN as the neural network and provide dashboard with Spring Boot including creating API and Thymeleaf as template engine for the front-end integrating with Spring Boot.
+
+- projectName: Indonesia Tourism Exchange (Java Android)
+  timeperiod:  February 2018 - Mei 2018
+  description: Apps for reporting homestay in indonesia, collect the data such as photos, detail furniture from the homestay. 
+
+- projectName: JAVA EE Module For Project Course (Using Spring Boot)
+  timeperiod: June 2017 – December 2017
+  description: Create a course module about creating e-commerce website for Lepkom (Lembaga Pengembangan Komputerisasi) based on JAVA EE (Spring Boot) and MySQL and other technology, including integrating with in F4 labs gunadarma university.
+
 - projectName: Website E-Learning University of Darussalam Gontor
   timeperiod: January 2018 – Febuary 2018
   description: Develop E-Learning for University of Darussalam Gontor.
-
-- projectName: The Sounds Project Vol.3
-  timeperiod: January 2018 – Febuary 2018
-  description: Develop Website Selling concert music tickets featuring Endah N Rhesa, Fariz RM, Float, Kahitna, Naif and other artists.
 
 - projectName: C# ASP.NET MVC 5 Module For Project Course
   timeperiod: June 2017 – December 2017
   description: Create a course module about creating e-commerce website for Lepkom (Lembaga Pengembangan Komputerisasi) based on C# ASP.NET MVC 5 and SQL Server 2016 and other technology, including integrating with in F4 labs gunadarma university.
 
-- projectName: JAVA EE Module For Project Course
-  timeperiod: June 2017 – December 2017
-  description: Create a course module about creating e-commerce website for Lepkom (Lembaga Pengembangan Komputerisasi) based on JAVA EE and MySQL and other technology, including integrating with in F4 labs gunadarma university.
-
 - projectName: Teaching Web Programing (Dissisfoad)
   timeperiod: November 2016 – November 2016
   description: Teaching about several technologies related to web programming such as Javascript, PHP, MySQL and others at Dinas Sistem Informasi Angkatan Darat (Dissisfoad)
-
-
-education:
-- degree: Bachelor's degree Informatics Engineering
-  timeperiod: August 2014 - December 2018
-  description: Gunadarma University, Depok, Indonesia.
 
 # skill level goes 0 to 100
 skills:
 - name: Linux
   level: 95
+- name: Android Development
+  level: 85
+- name: Java Programming
+  level: 85
+- name: Java EE
+  level: 85
+- name: Spring Framework & Spring Boot
+  level: 85
 - name: Express.js
   level: 90
 - name: Hapi.js
@@ -78,17 +90,13 @@ skills:
   level: 95
 - name: React Native
   level: 90
-- name: GraphQL
-  level: 80
 - name: Redux
   level: 95
 - name: JavaScript
   level: 95
 - name: Node.js
   level: 90
-- name: Android Development
-  level: 80
-- name: Java EE
+- name: GraphQL
   level: 80
 - name: ASP.NET MVC5
   level: 75

@@ -115,14 +115,6 @@
         <p class="info">{{project.description}}</p>
     </div>
 
-    <div class="section-headline">{{ lang.education }}</div>
-    <div class="block" v-for="education in person.education" :key="education.degree">
-      <div class="block-helper"></div>
-      <div class="headline">{{education.degree}}</div>
-      <p class="info">
-        {{education.timeperiod}}, {{education.description}}
-      </p>
-    </div>
 
 
 
